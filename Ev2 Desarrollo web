@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Kicks & Style</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #0044cc;
+            color: #fff;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #ffffff;
+            border-radius: 15px;
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            margin-top: 10px;
+            color: #0044cc;
+        }
+
+        .product p {
+            font-size: 16px;
+            color: #444;
+        }
+
+        .button {
+            background-color: #0044cc;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #003399;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #0044cc;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .contact {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .contact h2 {
+            color: #0044cc;
+        }
+
+        .contact p {
+            font-size: 18px;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>Elite Kicks & Style</header>
+    
+    <div class="container">
+        <div class="product">
+            <img src="https://acdn-us.mitiendanube.com/stores/003/194/492/products/961-298f44bc98043d18dc16893046377657-1024-1024.png" alt="Adidas Yeezy Boost 350 V2">
+            <h3>Adidas Yeezy Boost 350 V2</h3>
+            <p>$320 USD</p>
+            <button class="button">Comprar</button>
+        </div>
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPC62yn9Nwm5mQNjmnMkPjQG3G4ki8QmDZMg&s" alt="Nike Air Jordan 1 High">
+            <h3>Nike Air Jordan 1 High OG</h3>
+            <p>$190 USD</p>
+            <button class="button">Comprar</button>
+        </div>
+        <div class="product">
+            <img src="https://dpjye2wk9gi5z.cloudfront.net/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1033060-0101V1.jpg" alt="Nike Air Force 1">
+            <h3>Nike Air Force 1</h3>
+            <p>$110 USD</p>
+            <button class="button">Comprar</button>
+        </div>
+        <div class="product">
+            <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/AIR+FORCE+1+%2707.png" alt="Nike Air Max 90">
+            <h3>Nike Air Max 90</h3>
+            <p>$120 USD</p>
+            <button class="button">Comprar</button>
+        </div>
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/51Qw7Q0+qDL._AC_SY780_.jpg" alt="Air Jordan 4 Retro">
+            <h3>Air Jordan 4 Retro</h3>
+            <p>$240 USD</p>
+            <button class="button">Comprar</button>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Contacto</h2>
+        <p>Nombre: Daniel Correa</p>
+        <p>Teléfono: 8130992134</p>
+    </div>
+</body>
+</html>
